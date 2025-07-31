@@ -177,7 +177,7 @@ class BinanceMultiMonitor:
         """Периодическое обновление списка подписчиков"""
         while True:
             try:
-                await asyncio.sleep(300)  # Обновляем каждые 5 минут
+                await asyncio.sleep(30)  # Обновляем каждые 5 минут
                 await self.get_subscribed_users()
             except Exception as e:
                 logger.error(f"Ошибка периодического обновления подписчиков: {e}")
