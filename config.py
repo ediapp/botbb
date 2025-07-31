@@ -9,7 +9,7 @@
 TELEGRAM_TOKEN = "8313822061:AAGCMm6MvOT8zAU30bYqO-eCp9X1m-2ocso"
 
 # Минимальная сумма сделки для уведомления (в USD)
-MIN_AMOUNT = 100000
+MIN_AMOUNT = 1000000
 
 # Настройки логирования
 LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR
